@@ -1,0 +1,246 @@
+
+.footer-top, .footer-bottom-area, .footer-top .links, .social-icons, .header-top ul, .header-top ul li, .header-bottom .header-area, .header-bottom .header-area .menu, .menu-item-has-children > a, .banner-content .button-group, .newslater-area, .call-item, .call-button, .call-button .call, .transaction-tab .tab-menu, .transaction-tab .tab-menu li, .affiliate-wrapper, .affiliate-item, .affiliate-item .affiliate-inner, .affiliate-item .affiliate-inner .affiliate-thumb, .feature-item .feature-thumb, .about-item, .counter-item, .counter-item .counter-content .counter-header, .hover-tab-menu .tab-menu li, .ball-group-2,
+.ball-group-1, .offer-item .offer-header, .offer-item .offer-footer, .offer-item .offer-body, .calculate-wrapper .calculate-area, .calculate-wrapper .calculate-area .calculate-item .tab-menu, .calculate-wrapper .profit-calc, .invest-range-area, .mission-item .mission-thumb, .faq-tab .tab-menu, .why-area, .why-item .why-inner, .how-item .how-thumb-area, .how-item .how-thumb-area .how-thumb, .tot-wrapper, .tot-wrapper .tot-item .counter--item .counter-header, .dashboard-section, .dashboard-menu li a, .dashboard-right-menus li a.author, .notification-area .notification-body li a, .dashboard-item .dashboard-inner, .total-earning-item .total-earning-heading, .total-earning-item .item, .earn-item, .earn-item .earn-content ul, .earn-item .earn-content ul li, .total-partner, .dashboard-footer .right ul, .operation-filter, .deposit-inner .deposit-header, .deposit-inner .deposit-body, .deposit-wrapper, .make-deposit, .available-balance, .referral-group, .referral-links .oh, .pagination, .check_boxes, .check_box_group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.earn-item {
+    border: 1px solid rgba(69, 94, 238, 0.1);
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0px 4px 13px 0px rgba(204, 206, 213, 0.21);
+    padding: 28px 30px;
+	background: url(/images/dashboard/dashboard-bg.jpg) #fff no-repeat center center;
+	background-size: cover;
+}
+
+.earn-item .earn-thumb {
+    width: 80px;
+}
+
+.earn-item .earn-thumb img {
+    max-width: 100%;
+}
+
+.earn-item .earn-content {
+    padding-left: 28px;
+    width: calc(100% - 80px);
+}
+
+.earn-item .earn-content .title {
+    margin-bottom: 10px;
+}
+
+.earn-item .earn-content ul li {
+    width: 100%;
+    max-width: 240px;
+}
+
+@media screen and (max-width: 1800px) {
+    .earn-item .earn-content ul li {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .earn-item .earn-content ul li {
+        max-width: 180px;
+    }
+}
+
+.earn-item .earn-content ul li .icon {
+    width: 31px;
+}
+
+.earn-item .earn-content ul li .cont {
+    padding-left: 10px;
+    width: calc(100% - 31px);
+    font-weight: 500;
+}
+
+.earn-item .earn-content.partner-content ul {
+    width: calc(100% - 105px);
+}
+
+.earn-item .earn-content.partner-content ul li {
+    max-width: 100%;
+}
+
+.earn-item .earn-content.partner-content .total-partner {
+    margin-top: -25px;
+}
+
+.earn-item.small-thumbs {
+    border: 1px solid rgba(69, 94, 238, 0.3);
+}
+
+.earn-item.small-thumbs .earn-thumb {
+    width: 60px;
+}
+
+.earn-item.small-thumbs .earn-content {
+    width: calc(100% - 60px);
+}
+
+.earn-item.small-thumbs .earn-content ul li {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 499px) {
+    .earn-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .earn-item .earn-thumb {
+        display: none;
+    }
+
+    .earn-item .earn-content {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .earn-item .earn-content.partner-content ul {
+        width: 100%;
+    }
+
+    .earn-item .earn-content.partner-content .total-partner {
+        margin-top: 10px;
+    }
+}
+
+.dashboard-item {
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px 0px rgba(112, 120, 146, 0.1);
+    margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.dashboard-item .dashboard-inner {
+    background: url(/images/dashboard/dashboard-bg.jpg) #fff no-repeat center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 20px 20px;
+    border-radius: 12px;
+}
+
+.dashboard-item .dashboard-inner .title {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dashboard-item .dashboard-inner .amount {
+    color: #00953B;
+	/* padding: 7px 0; */
+	margin-bottom: 0;
+	line-height: 44px;
+}
+
+.progress-wrapper {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 13px 0px rgba(204, 206, 213, 0.21);
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.progress-wrapper .title {
+    margin: 0;
+    margin-bottom: 13px;
+}
+
+
+.total-earning-item {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 13px 0px rgba(204, 206, 213, 0.21);
+    padding: 35px 15px 35px;
+    margin-bottom: 30px;
+}
+
+.total-earning-item .normal-button {
+    -webkit-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    transform: translateY(60px);
+}
+
+.total-earning-item .total-earning-heading {
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.total-earning-item .total-earning-heading .title, .total-earning-item .total-earning-heading .amount {
+    margin-bottom: 10px;
+}
+
+.total-earning-item .item {
+    padding: 15px;
+    align-items: flex-end;
+    max-width: 50%;
+}
+
+.total-earning-item .item .cont {
+    width: calc(100% - 98px);
+    padding-right: 20px;
+}
+
+.total-earning-item .item .thumb {
+    width: 98px;
+}
+
+.total-earning-item .item .thumb img {
+    max-width: 100%;
+}
+
+@media (max-width: 767px) {
+    .total-earning-item .item .month {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1160px) {
+    .total-earning-item .item .thumb {
+        width: 70px;
+    }
+
+    .total-earning-item .item .cont {
+        width: calc(100% - 70px);
+    }
+
+    .total-earning-item .item .cont .month {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .total-earning-item .item .thumb {
+        width: 70px;
+    }
+
+    .total-earning-item .item .cont {
+        width: calc(100% - 70px);
+    }
+
+    .total-earning-item .item .cont .month {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width: 575px) {
+    .total-earning-item {
+        padding: 30px 0 15px;
+    }
+
+    .total-earning-item .item {
+        max-width: 100%;
+        width: 100%;
+    }
+}

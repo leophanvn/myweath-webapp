@@ -1,0 +1,33 @@
+.card {
+	background: @component-background;
+	border-radius: 10px;
+	box-shadow: 1px 1px 20px 1px rgb(224 224 224);
+	margin-bottom: 20px;
+	border: 1px solid #DBDCDD;
+	position: relative;
+
+	.title {
+		font-weight: 500;
+		padding: 20px;
+		padding-top: 15px;
+		padding-bottom: 0;
+		display: flex;
+		align-items: center;
+
+		.titleInner {
+			font-size: 18px;
+			flex: 1;
+			margin-right: 15px;
+		}
+	}
+
+	.actionOnly {
+		position: absolute;
+		right: 20px;
+		top: 20px;
+	}
+
+	.body {
+		padding: 20px;
+	}
+}

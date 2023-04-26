@@ -1,92 +1,160 @@
-# mywealth-webapp
+# myWealth.ai Webapp
 
+## Features
+This boilerplate is updated with:
 
+- [React 18x](https://reactjs.org)
+- [Nextjs 12x](https://nextjs.org/)
+- [Antd 4x](https://ant.design/)
+- Less - css module
+- Eslint
+- Webpack 5
 
-## Getting started
+## Getting Started
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+1. Check if your [Node.js](https://nodejs.org/) version is >= 10.13.
+2. Clone this repository.
+3. Change the package's `name`, `description`, and `repository` fields in `package.json`.
+4. Change the name of your app on `public/manifest.json`.
+5. Run `yarn` to install the dependencies.
+6. Run `yarn dev` for development.
+6. Run `yarn build` and `yarn start` for production.
+6. Run `yarn build:staging` and `yarn start:staging` for staging.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
 
-## Add your files
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:8080/api/users](http://localhost:8080/api/users). This endpoint can be edited in `pages/api/users/index.js`.
+
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Environment Variables
+
+By default all environment variables loaded through `.env` are only available in the Node.js environment, meaning they won't be exposed to the browser.
+
+In order to expose a variable to the browser you have to prefix the variable with `NEXT_PUBLIC_.` For example:
+
+```js
+PORT=8080
+
+NEXT_PUBLIC_API_URL=http://localhost:$PORT/api
+NEXT_PUBLIC_WEB_URL=http://localhost:$PORT
+```
+
+This loads process.env.NEXT_PUBLIC_ANALYTICS_ID into the Node.js environment automatically, allowing you to use it anywhere in your code. The value will be inlined into JavaScript sent to the browser because of the NEXT_PUBLIC_ prefix. This inlining occurs at build time, so your various NEXT_PUBLIC_ envs need to be set when the project is built.
+
+##### Default Environment Variables
+In general only one `.env` file is needed. However, sometimes you might want to add some defaults for the development (next dev) or production (next start) environment.
+
+Allows you to set defaults in `.env` (all environments), `.env.development` (development environment), `and .env.production` (production environment), `and .env.staging` (staging environment).
+
+`.env` always overrides the defaults set.
+
+Reference in the file `.env-example`.
+
+[Learn more](https://nextjs.org/docs/basic-features/environment-variables)
+
+## Built-In LESS Support
+
+#### Customize Theme
+You can edit the Ant Design Less variables in `src/styles/variables.less` file. A set of less variables are defined for each design aspect that can be customized to your needs.
+
+```css
+@primary-color: #1890ff; // primary color for all components
+@link-color: #1890ff; // link color
+@success-color: #52c41a; // success state color
+@warning-color: #faad14; // warning state color
+@error-color: #f5222d; // error state color
+@font-size-base: 14px; // major text font size
+@heading-color: rgba(0, 0, 0, 0.85); // heading text color
+@text-color: rgba(0, 0, 0, 0.65); // major text color
+@text-color-secondary: rgba(0, 0, 0, 0.45); // secondary text color
+@disabled-color: rgba(0, 0, 0, 0.25); // disable state color
+@border-radius-base: 2px; // major border radius
+@border-color-base: #d9d9d9; // major border color
+@box-shadow-base: 0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+  0 9px 28px 8px rgba(0, 0, 0, 0.05); // major shadow for layers
 
 ```
-cd existing_repo
-git remote add origin https://gitlab.com/wms19/mywealth-webapp.git
-git branch -M main
-git push -uf origin main
+
+There are some major variables below, all less variables could be found in [Default Variables](https://github.com/ant-design/ant-design/blob/master/components/style/themes/default.less).
+
+
+#### Adding a Global Stylesheet
+
+Create a `pages/_app.js` file if not already present. Then, `import` the `styles.css` file.
+
+```js
+require('src/styles/index.less');
+
+// This default export is required in a new `pages/_app.js` file.
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
 ```
 
-## Integrate with your tools
+#### Adding Component-Level LESS
 
-- [ ] [Set up project integrations](https://gitlab.com/wms19/mywealth-webapp/-/settings/integrations)
+Supports LESS Modules using the `[name].module.less` file naming convention.
 
-## Collaborate with your team
+LESS Modules locally scope LESS by automatically creating a unique class name. This allows you to use the same LESS class name in different files without worrying about collisions.
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+This behavior makes LESS Modules the ideal way to include component-level LESS. LESS Module files can be imported anywhere in your application.
 
-## Test and Deploy
+For example, consider a reusable Button component in the `components/` folder:
 
-Use the built-in continuous integration in GitLab.
+First, create `components/Button.module.less` with the following content:
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+```js
+/*
+You do not need to worry about .error {} colliding with any other `.less` or
+`.module.less` files!
+*/
+.error {
+  color: white;
+  background-color: red;
+}
+```
 
-***
+Then, create `components/Button.js`, importing and using the above LESS file:
 
-# Editing this README
+```js
+import classes from './Button.module.less'
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
+export function Button() {
+  return (
+    <button
+      type="button"
+      // Note how the "error" class is accessed as a property on the imported
+      // `classes` object.
+      className={classes.error}
+    >
+      Destroy
+    </button>
+  )
+}
+```
 
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
 
-## Name
-Choose a self-explaining name for your project.
+## Learn More
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+To learn more about Next.js, take a look at the following resources:
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Deploy on Vercel
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+If you find any problems, please [open an issue](https://github.com/tientran0019/boilerplate-nextjs-antd-less/issues/new) or submit a fix as a pull request.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+## Author
+Tien Tran <tientran0019@gmail.com>

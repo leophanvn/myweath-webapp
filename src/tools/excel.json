@@ -1,0 +1,1307 @@
+{
+    "A3 Core": [
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Growth ETF",
+            "Index": "S&P500 Growth TR",
+            " Weight ": "33.43"
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares Russell 2000 ETF",
+            "Index": "Russell 2000",
+            " Weight ": "1.01"
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Communication Services Sel Sect SPDR ETF",
+            "Index": "S&P500 Comm Svcs",
+            " Weight ": "7.19"
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Financials Sect ETF $Acc",
+            "Index": "S&P500 Financials",
+            " Weight ": "12.25"
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Consumer Discret Sel Sect SPDR ETF",
+            "Index": "S&P500 Consumer Discretionary",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "Developed Markets Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares MSCI Intl Momentum Factor ETF",
+            "Index": "MSCI World ex-US Momentum",
+            " Weight ": "21.03"
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": "2.2"
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": "1.03"
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "International Equities",
+            "Name": "Vanguard Value ETF",
+            "Index": "US Large Cap Value",
+            " Weight ": "3.55"
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": "8.49"
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "Developed Markets Government Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "BGF Global Inflation Linked Bd A2 USD",
+            "Index": "BB Dev Mkts Inflation Bonds",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": "1.04"
+        },
+        {
+            "New Category": "Global Corporate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares iBoxx $ High Yield Corp Bd ETF",
+            "Index": "BB Global HY",
+            " Weight ": "1.07"
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": "1.71"
+        }
+    ],
+    "A2 Core": [
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.95 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.10 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Growth ETF",
+            "Index": "S&P500 Growth TR",
+            " Weight ": " 34.62 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 6.25 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": " 1.40 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Materials Select Sector SPDR ETF",
+            "Index": "S&P500 Materials",
+            " Weight ": " 1.06 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "US Equities",
+            "Name": "SPDR MSCI Wld Cnsmr Discret ETF USD",
+            "Index": "MSCI World Consumer Discretionary",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 23.68 "
+        },
+        {
+            "New Category": "Developed Markets Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares MSCI Intl Momentum Factor ETF",
+            "Index": "MSCI World ex-US Momentum",
+            " Weight ": "1"
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "International Equities",
+            "Name": "Vanguard Value ETF",
+            "Index": "US Large Cap Value",
+            " Weight ": " 21.93 "
+        }
+    ],
+    "A1 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 11.60 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.51 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.16 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Value ETF",
+            "Index": "S&P500 Value TR",
+            " Weight ": " 4.87 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 3.03 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "AIA International Health Care Fund",
+            "Index": "MSCI World Healthcare NR",
+            " Weight ": " 28.33 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Utilities ETF USD Acc",
+            "Index": "MSCI World Utilities",
+            " Weight ": " 1.93 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Vanguard Consumer Staples ETF",
+            "Index": "S&P500 Consumer Staples",
+            " Weight ": " 23.84 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 18.71 "
+        }
+    ],
+    "G3 Core": [
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.07 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 3.64 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Corporate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares iBoxx $ High Yield Corp Bd ETF",
+            "Index": "BB Global HY",
+            " Weight ": " 2.87 "
+        },
+        {
+            "New Category": "Developed Markets Government Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "BGF Global Inflation Linked Bd A2 USD",
+            "Index": "BB Dev Mkts Inflation Bonds",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Emerging Markets Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares Core MSCI Emerging Markets ETF",
+            "Index": "MSCI EM IMI NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Growth ETF",
+            "Index": "S&P500 Growth TR",
+            " Weight ": " 43.46 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares Core S&P Mid-Cap ETF",
+            "Index": "S&P500 Mid Cap 400",
+            " Weight ": " 4.72 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 15.10 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": " 2.14 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Communication Services Sel Sect SPDR ETF",
+            "Index": "S&P500 Comm Svcs",
+            " Weight ": " 20.01 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR® MSCI World Financials ETF USD Acc",
+            "Index": "MSCI World Financials",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 1.00 "
+        }
+    ],
+    "G2 Core": [
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.85 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Developed Markets Government Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "BGF Global Inflation Linked Bd A2 USD",
+            "Index": "BB Dev Mkts Inflation Bonds",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.26 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Growth ETF",
+            "Index": "S&P500 Growth TR",
+            " Weight ": " 32.65 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 6.15 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": " 1.42 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Materials Select Sector SPDR ETF",
+            "Index": "S&P500 Materials",
+            " Weight ": " 1.08 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "US Equities",
+            "Name": "SPDR MSCI Wld Cnsmr Discret ETF USD",
+            "Index": "MSCI World Consumer Discretionary",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 24.92 "
+        },
+        {
+            "New Category": "Developed Markets Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares MSCI Intl Momentum Factor ETF",
+            "Index": "MSCI World ex-US Momentum",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "International Equities",
+            "Name": "Vanguard Value ETF",
+            "Index": "US Large Cap Value",
+            " Weight ": " 21.67 "
+        }
+    ],
+    "G1 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.12 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 13.83 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.65 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Value ETF",
+            "Index": "S&P500 Value TR",
+            " Weight ": " 4.75 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 2.06 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "AIA International Health Care Fund",
+            "Index": "MSCI World Healthcare NR",
+            " Weight ": " 18.14 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Utilities ETF USD Acc",
+            "Index": "MSCI World Utilities",
+            " Weight ": " 1.64 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Vanguard Consumer Staples ETF",
+            "Index": "S&P500 Consumer Staples",
+            " Weight ": " 16.51 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 36.29 "
+        }
+    ],
+    "M3 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 8.70 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.52 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Corporate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares iBoxx $ High Yield Corp Bd ETF",
+            "Index": "BB Global HY",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Developed Markets Government Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "BGF Global Inflation Linked Bd A2 USD",
+            "Index": "BB Dev Mkts Inflation Bonds",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.16 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Growth ETF",
+            "Index": "S&P500 Growth TR",
+            " Weight ": " 44.93 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 4.66 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": " 1.16 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Utilities ETF USD Acc",
+            "Index": "MSCI World Utilities",
+            " Weight ": " 5.57 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Communication Services Sel Sect SPDR ETF",
+            "Index": "S&P500 Comm Svcs",
+            " Weight ": " 2.95 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 20.34 "
+        }
+    ],
+    "M2 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.28 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 13.73 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Developed Markets Government Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "BGF Global Inflation Linked Bd A2 USD",
+            "Index": "BB Dev Mkts Inflation Bonds",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 3.13 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Utilities ETF USD Acc",
+            "Index": "MSCI World Utilities",
+            " Weight ": " 3.09 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Comm Svcs ETF USD Acc",
+            "Index": "MSCI World Comm Svcs",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "US Equities",
+            "Name": "Wellington Global HlthC Eq G USD Acc Unh",
+            "Index": "S&P500 Healthcare",
+            " Weight ": " 38.42 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Communication Services Sel Sect SPDR ETF",
+            "Index": "S&P500 Comm Svcs",
+            " Weight ": " 3.28 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 28.03 "
+        }
+    ],
+    "M1 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.56 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 17.67 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Value ETF",
+            "Index": "S&P500 Value TR",
+            " Weight ": " 4.55 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 2.85 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "AIA International Health Care Fund",
+            "Index": "MSCI World Healthcare NR",
+            " Weight ": " 22.14 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Vanguard Consumer Staples ETF",
+            "Index": "S&P500 Consumer Staples",
+            " Weight ": " 19.17 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Comm Svcs ETF USD Acc",
+            "Index": "MSCI World Comm Svcs",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 27.06 "
+        }
+    ],
+    "C3 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.01 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 15.16 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.31 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Corporate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares iBoxx $ High Yield Corp Bd ETF",
+            "Index": "BB Global HY",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Developed Markets Government Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "BGF Global Inflation Linked Bd A2 USD",
+            "Index": "BB Dev Mkts Inflation Bonds",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.02 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.15 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Growth ETF",
+            "Index": "S&P500 Growth TR",
+            " Weight ": " 28.77 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 3.73 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares International Dev Real Est ETF",
+            "Index": "FTSE EPRA NAREIT Developed Ex US NR",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Real Estate",
+            "Old Category": "Real Estate",
+            "Name": "iShares US Real Estate ETF",
+            "Index": "DJ US Real Estate TR",
+            " Weight ": " 1.03 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Utilities ETF USD Acc",
+            "Index": "MSCI World Utilities",
+            " Weight ": " 3.77 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Communication Services Sel Sect SPDR ETF",
+            "Index": "S&P500 Comm Svcs",
+            " Weight ": " 2.32 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 33.73 "
+        }
+    ],
+    "C2 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 1.29 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 20.22 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "PIMCO GIS GllnGd Crdt E USD Inc",
+            "Index": "BB Global Investment Grade",
+            " Weight ": " 1.83 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "iShares JPX-Nikei 400 ETF",
+            "Index": "Japan (Topix)",
+            " Weight ": " 1.06 "
+        },
+        {
+            "New Category": "Europe Equities",
+            "Old Category": "International Equities",
+            "Name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+            "Index": "Europe 600",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Value ETF",
+            "Index": "S&P500 Value TR",
+            " Weight ": " 2.09 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 2.50 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Comm Svcs ETF USD Acc",
+            "Index": "MSCI World Comm Svcs",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "US Equities",
+            "Name": "Wellington Global HlthC Eq G USD Acc Unh",
+            "Index": "S&P500 Healthcare",
+            " Weight ": " 29.04 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Communication Services Sel Sect SPDR ETF",
+            "Index": "S&P500 Comm Svcs",
+            " Weight ": " 2.70 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 34.27 "
+        }
+    ],
+    "C1 Core": [
+        {
+            "New Category": "US Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "iShares TIPS Bond ETF",
+            "Index": "BB US TIPS",
+            " Weight ": " 3.56 "
+        },
+        {
+            "New Category": "Developed Markets Aggregate Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "DFA Two-Year Global Fixed-Income I",
+            "Index": "BB Short Duration",
+            " Weight ": " 38.85 "
+        },
+        {
+            "New Category": "Emerging Markets Government Bonds",
+            "Old Category": "Government Bonds",
+            "Name": "Invesco Emerging Markets Sov Debt ETF",
+            "Index": "BB EM Govt",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Aggregate Bonds",
+            "Old Category": "Corporate Bonds",
+            "Name": "iShares JP Morgan USD Asia Credit Bd ETF",
+            "Index": "BB Asia Credit",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Global Aggregate Bonds",
+            "Old Category": "Global Bonds",
+            "Name": "iShares Core Glbl Aggg Bond UCITS ETF",
+            "Index": "BB Global Aggregate",
+            " Weight ": " 1.00 "
+        },
+        {
+            "New Category": "Asia Pacific ex-Japan Equities",
+            "Old Category": "International Equities",
+            "Name": "Nikko AM Shenton Asia Pacific",
+            "Index": "MSCI AC Asia Pac x Jap NR",
+            " Weight ": " 1.03 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "iShares S&P 500 Value ETF",
+            "Index": "S&P500 Value TR",
+            " Weight ": " 4.88 "
+        },
+        {
+            "New Category": "Commodities",
+            "Old Category": "Commodities",
+            "Name": "SPDR Gold Shares ETF",
+            "Index": "LBMA Gold Price PM PR",
+            " Weight ": " 2.49 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "AIA International Health Care Fund",
+            "Index": "MSCI World Healthcare NR",
+            " Weight ": " 13.54 "
+        },
+        {
+            "New Category": "Global Equities",
+            "Old Category": "International Equities",
+            "Name": "SPDR MSCI World Utilities ETF USD Acc",
+            "Index": "MSCI World Utilities",
+            " Weight ": " 2.77 "
+        },
+        {
+            "New Category": "US Equities",
+            "Old Category": "US Equities",
+            "Name": "Vanguard Consumer Staples ETF",
+            "Index": "S&P500 Consumer Staples",
+            " Weight ": " 17.56 "
+        },
+        {
+            "New Category": "Cash",
+            "Old Category": "Cash",
+            "Name": "US Cash",
+            "Index": "US Cash",
+            " Weight ": " 12.34 "
+        }
+    ]
+}

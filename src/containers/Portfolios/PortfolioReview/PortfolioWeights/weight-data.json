@@ -1,0 +1,3216 @@
+{
+	"Core A3": [
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Growth ETF",
+					"index": "S&P500 Growth TR",
+					"weight": 33.43,
+					"currency": "USD",
+					"alpha": 3.42,
+					"sharpeRatio": 4.46,
+					"jensenAlpha": 1.58,
+					"informationRatio": 5.03,
+					"trackingError": 4.16
+				},
+				{
+					"category": "US Equities",
+					"name": "iShares Russell 2000 ETF",
+					"index": "Russell 2000",
+					"weight": 1.01,
+					"currency": "USD",
+					"alpha": 5.8,
+					"sharpeRatio": 5.14,
+					"jensenAlpha": 3.89,
+					"informationRatio": 3.07,
+					"trackingError": 1.17
+				},
+				{
+					"category": "US Equities",
+					"name": "Communication Services Sel Sect SPDR ETF",
+					"index": "S&P500 Comm Svcs",
+					"weight": 7.19,
+					"currency": "USD",
+					"alpha": 3.64,
+					"sharpeRatio": 4.39,
+					"jensenAlpha": 3.49,
+					"informationRatio": 1.28,
+					"trackingError": 3.02
+				},
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Financials Sect ETF $Acc",
+					"index": "S&P500 Financials",
+					"weight": 12.25,
+					"currency": "USD",
+					"alpha": 1.56,
+					"sharpeRatio": 3.06,
+					"jensenAlpha": 5.84,
+					"informationRatio": 1.75,
+					"trackingError": 0.81
+				},
+				{
+					"category": "US Equities",
+					"name": "Consumer Discret Sel Sect SPDR ETF",
+					"index": "S&P500 Consumer Discretionary",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.06,
+					"sharpeRatio": 0.11,
+					"jensenAlpha": 1.78,
+					"informationRatio": 2.97,
+					"trackingError": 3.18
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Value ETF",
+					"index": "US Large Cap Value",
+					"weight": 3.55,
+					"currency": "USD",
+					"alpha": 4.73,
+					"sharpeRatio": 4.42,
+					"jensenAlpha": 3.85,
+					"informationRatio": 3.85,
+					"trackingError": 2.29
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Equities",
+			"groupName": "Developed Markets Equities",
+			"color": "#f6c022",
+			"data": [
+				{
+					"category": "Developed Markets Equities",
+					"name": "iShares MSCI Intl Momentum Factor ETF",
+					"index": "MSCI World ex-US Momentum",
+					"weight": 21.03,
+					"currency": "USD",
+					"alpha": 5.28,
+					"sharpeRatio": 1.58,
+					"jensenAlpha": 0.04,
+					"informationRatio": 4.04,
+					"trackingError": 3.54
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.72,
+					"sharpeRatio": 1.85,
+					"jensenAlpha": 5.48,
+					"informationRatio": 4.64,
+					"trackingError": 1.03
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 2.2,
+					"currency": "USD",
+					"alpha": 0.45,
+					"sharpeRatio": 4.7,
+					"jensenAlpha": 5.77,
+					"informationRatio": 5.19,
+					"trackingError": 1.22
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.98,
+					"sharpeRatio": 3.18,
+					"jensenAlpha": 4.46,
+					"informationRatio": 4.46,
+					"trackingError": 3.71
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.03,
+					"currency": "USD",
+					"alpha": 0.24,
+					"sharpeRatio": 0.31,
+					"jensenAlpha": 5.64,
+					"informationRatio": 4.76,
+					"trackingError": 4.64
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.9,
+					"sharpeRatio": 3.65,
+					"jensenAlpha": 1.32,
+					"informationRatio": 5.04,
+					"trackingError": 4.31
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 8.49,
+					"currency": "USD",
+					"alpha": 5.25,
+					"sharpeRatio": 0.82,
+					"jensenAlpha": 3.53,
+					"informationRatio": 0.18,
+					"trackingError": 2.26
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.6,
+					"sharpeRatio": 4.4,
+					"jensenAlpha": 5.59,
+					"informationRatio": 1.88,
+					"trackingError": 0.57
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Government Bonds",
+			"groupName": "Developed Markets Government Bonds",
+			"color": "#9B6C64",
+			"data": [
+				{
+					"category": "Developed Markets Government Bonds",
+					"name": "BGF Global Inflation Linked Bd A2 USD",
+					"index": "BB Dev Mkts Inflation Bonds",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.69,
+					"sharpeRatio": 5.34,
+					"jensenAlpha": 0.86,
+					"informationRatio": 3.86,
+					"trackingError": 0.61
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1.04,
+					"currency": "USD",
+					"alpha": 2.75,
+					"sharpeRatio": 3.43,
+					"jensenAlpha": 5.91,
+					"informationRatio": 0.68,
+					"trackingError": 1.93
+				}
+			]
+		},
+		{
+			"groupId": "Global Corporate Bonds",
+			"groupName": "Global Corporate Bonds",
+			"color": "#6832CD",
+			"data": [
+				{
+					"category": "Global Corporate Bonds",
+					"name": "iShares iBoxx $ High Yield Corp Bd ETF",
+					"index": "BB Global HY",
+					"weight": 1.07,
+					"currency": "USD",
+					"alpha": 0.42,
+					"sharpeRatio": 4.81,
+					"jensenAlpha": 2.58,
+					"informationRatio": 0.27,
+					"trackingError": 1.26
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 1.71,
+					"currency": "USD",
+					"alpha": 2.55,
+					"sharpeRatio": 3.83,
+					"jensenAlpha": 1,
+					"informationRatio": 0.49,
+					"trackingError": 3.07
+				}
+			]
+		}
+	],
+	"Core A2": [
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.42,
+					"sharpeRatio": 0.9,
+					"jensenAlpha": 5.48,
+					"informationRatio": 5.08,
+					"trackingError": 3.88
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.11,
+					"sharpeRatio": 5.4,
+					"jensenAlpha": 2.67,
+					"informationRatio": 3.87,
+					"trackingError": 3.86
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.95,
+					"currency": "USD",
+					"alpha": 1.61,
+					"sharpeRatio": 4.71,
+					"jensenAlpha": 5.83,
+					"informationRatio": 0.02,
+					"trackingError": 1.53
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.66,
+					"sharpeRatio": 0.59,
+					"jensenAlpha": 5.66,
+					"informationRatio": 1.29,
+					"trackingError": 2.98
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.48,
+					"sharpeRatio": 0.85,
+					"jensenAlpha": 1.5,
+					"informationRatio": 0.9,
+					"trackingError": 3.42
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.1,
+					"currency": "USD",
+					"alpha": 2.26,
+					"sharpeRatio": 4.32,
+					"jensenAlpha": 4.78,
+					"informationRatio": 4.73,
+					"trackingError": 1.33
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3,
+					"sharpeRatio": 2.43,
+					"jensenAlpha": 0.33,
+					"informationRatio": 4.4,
+					"trackingError": 1.53
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Growth ETF",
+					"index": "S&P500 Growth TR",
+					"weight": 34.62,
+					"currency": "USD",
+					"alpha": 0.87,
+					"sharpeRatio": 1.66,
+					"jensenAlpha": 0.91,
+					"informationRatio": 3.38,
+					"trackingError": 5.9
+				},
+				{
+					"category": "US Equities",
+					"name": "Materials Select Sector SPDR ETF",
+					"index": "S&P500 Materials",
+					"weight": 1.06,
+					"currency": "USD",
+					"alpha": 1.54,
+					"sharpeRatio": 4.75,
+					"jensenAlpha": 2.35,
+					"informationRatio": 0.54,
+					"trackingError": 2.71
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Value ETF",
+					"index": "US Large Cap Value",
+					"weight": 21.93,
+					"currency": "USD",
+					"alpha": 4.91,
+					"sharpeRatio": 5.93,
+					"jensenAlpha": 5.5,
+					"informationRatio": 1.33,
+					"trackingError": 1.93
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 6.25,
+					"currency": "USD",
+					"alpha": 4.51,
+					"sharpeRatio": 0.18,
+					"jensenAlpha": 1.65,
+					"informationRatio": 1.05,
+					"trackingError": 5.22
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.49,
+					"sharpeRatio": 0.32,
+					"jensenAlpha": 5.39,
+					"informationRatio": 1.8,
+					"trackingError": 4.66
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 1.4,
+					"currency": "USD",
+					"alpha": 4.17,
+					"sharpeRatio": 2.37,
+					"jensenAlpha": 4.53,
+					"informationRatio": 5.64,
+					"trackingError": 5.79
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI Wld Cnsmr Discret ETF USD",
+					"index": "MSCI World Consumer Discretionary",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 5.36,
+					"sharpeRatio": 1.28,
+					"jensenAlpha": 5.46,
+					"informationRatio": 1.46,
+					"trackingError": 1.72
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 23.68,
+					"currency": "USD",
+					"alpha": 3.79,
+					"sharpeRatio": 0.72,
+					"jensenAlpha": 1.77,
+					"informationRatio": 2.73,
+					"trackingError": 2.7
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Equities",
+			"groupName": "Developed Markets Equities",
+			"color": "#f6c022",
+			"data": [
+				{
+					"category": "Developed Markets Equities",
+					"name": "iShares MSCI Intl Momentum Factor ETF",
+					"index": "MSCI World ex-US Momentum",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.07,
+					"sharpeRatio": 5.48,
+					"jensenAlpha": 1.74,
+					"informationRatio": 2.78,
+					"trackingError": 4.54
+				}
+			]
+		}
+	],
+	"Core A1": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 5.07,
+					"sharpeRatio": 3.17,
+					"jensenAlpha": 2.03,
+					"informationRatio": 3.25,
+					"trackingError": 5.76
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 11.6,
+					"currency": "USD",
+					"alpha": 1.28,
+					"sharpeRatio": 4.98,
+					"jensenAlpha": 3.25,
+					"informationRatio": 4.37,
+					"trackingError": 4.55
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.84,
+					"sharpeRatio": 3.62,
+					"jensenAlpha": 4.29,
+					"informationRatio": 4.09,
+					"trackingError": 3.94
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.06,
+					"sharpeRatio": 0.55,
+					"jensenAlpha": 1.72,
+					"informationRatio": 0.3,
+					"trackingError": 4.3
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.51,
+					"currency": "USD",
+					"alpha": 3.52,
+					"sharpeRatio": 0.49,
+					"jensenAlpha": 1.1,
+					"informationRatio": 1.11,
+					"trackingError": 4.35
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.38,
+					"sharpeRatio": 4.16,
+					"jensenAlpha": 3.83,
+					"informationRatio": 2.36,
+					"trackingError": 4.36
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.87,
+					"sharpeRatio": 3.68,
+					"jensenAlpha": 0.02,
+					"informationRatio": 4.81,
+					"trackingError": 5.1
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.16,
+					"currency": "USD",
+					"alpha": 0.77,
+					"sharpeRatio": 2.99,
+					"jensenAlpha": 4.09,
+					"informationRatio": 2.16,
+					"trackingError": 4.66
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Value ETF",
+					"index": "S&P500 Value TR",
+					"weight": 4.87,
+					"currency": "USD",
+					"alpha": 0.25,
+					"sharpeRatio": 2.49,
+					"jensenAlpha": 3.29,
+					"informationRatio": 2.89,
+					"trackingError": 0.41
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Consumer Staples ETF",
+					"index": "S&P500 Consumer Staples",
+					"weight": 23.84,
+					"currency": "USD",
+					"alpha": 0.24,
+					"sharpeRatio": 2.86,
+					"jensenAlpha": 3.85,
+					"informationRatio": 1.9,
+					"trackingError": 5.75
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 3.03,
+					"currency": "USD",
+					"alpha": 1.15,
+					"sharpeRatio": 5.74,
+					"jensenAlpha": 5.1,
+					"informationRatio": 1.33,
+					"trackingError": 2.45
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "AIA International Health Care Fund",
+					"index": "MSCI World Healthcare NR",
+					"weight": 28.33,
+					"currency": "USD",
+					"alpha": 4.78,
+					"sharpeRatio": 4.8,
+					"jensenAlpha": 0.84,
+					"informationRatio": 1.69,
+					"trackingError": 4.24
+				},
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Utilities ETF USD Acc",
+					"index": "MSCI World Utilities",
+					"weight": 1.93,
+					"currency": "USD",
+					"alpha": 1.95,
+					"sharpeRatio": 0.97,
+					"jensenAlpha": 4.54,
+					"informationRatio": 1,
+					"trackingError": 5.06
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 18.71,
+					"currency": "USD",
+					"alpha": 5.94,
+					"sharpeRatio": 5.3,
+					"jensenAlpha": 1.41,
+					"informationRatio": 5.93,
+					"trackingError": 5.42
+				}
+			]
+		}
+	],
+	"Core G3": [
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1.07,
+					"currency": "USD",
+					"alpha": 2.73,
+					"sharpeRatio": 4.82,
+					"jensenAlpha": 3.34,
+					"informationRatio": 0.6,
+					"trackingError": 2.18
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 3.64,
+					"currency": "USD",
+					"alpha": 2.31,
+					"sharpeRatio": 3.19,
+					"jensenAlpha": 2.8,
+					"informationRatio": 1.3,
+					"trackingError": 5.63
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.55,
+					"sharpeRatio": 5.04,
+					"jensenAlpha": 4.6,
+					"informationRatio": 2.44,
+					"trackingError": 1.68
+				}
+			]
+		},
+		{
+			"groupId": "Global Corporate Bonds",
+			"groupName": "Global Corporate Bonds",
+			"color": "#6832CD",
+			"data": [
+				{
+					"category": "Global Corporate Bonds",
+					"name": "iShares iBoxx $ High Yield Corp Bd ETF",
+					"index": "BB Global HY",
+					"weight": 2.87,
+					"currency": "USD",
+					"alpha": 1.69,
+					"sharpeRatio": 2.89,
+					"jensenAlpha": 1.71,
+					"informationRatio": 2.83,
+					"trackingError": 4.81
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Government Bonds",
+			"groupName": "Developed Markets Government Bonds",
+			"color": "#9B6C64",
+			"data": [
+				{
+					"category": "Developed Markets Government Bonds",
+					"name": "BGF Global Inflation Linked Bd A2 USD",
+					"index": "BB Dev Mkts Inflation Bonds",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.38,
+					"sharpeRatio": 2.52,
+					"jensenAlpha": 0.79,
+					"informationRatio": 5.37,
+					"trackingError": 5.32
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Equities",
+			"groupName": "Emerging Markets Equities",
+			"color": "#CE3B31",
+			"data": [
+				{
+					"category": "Emerging Markets Equities",
+					"name": "iShares Core MSCI Emerging Markets ETF",
+					"index": "MSCI EM IMI NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.03,
+					"sharpeRatio": 0.58,
+					"jensenAlpha": 3.99,
+					"informationRatio": 0.25,
+					"trackingError": 3.48
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.5,
+					"sharpeRatio": 5.8,
+					"jensenAlpha": 4.58,
+					"informationRatio": 3.11,
+					"trackingError": 5.15
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Growth ETF",
+					"index": "S&P500 Growth TR",
+					"weight": 43.46,
+					"currency": "USD",
+					"alpha": 2.59,
+					"sharpeRatio": 2.68,
+					"jensenAlpha": 3.55,
+					"informationRatio": 3.92,
+					"trackingError": 5.55
+				},
+				{
+					"category": "US Equities",
+					"name": "iShares Core S&P Mid-Cap ETF",
+					"index": "S&P500 Mid Cap 400",
+					"weight": 4.72,
+					"currency": "USD",
+					"alpha": 1.74,
+					"sharpeRatio": 2.54,
+					"jensenAlpha": 3.47,
+					"informationRatio": 5.3,
+					"trackingError": 0.18
+				},
+				{
+					"category": "US Equities",
+					"name": "Communication Services Sel Sect SPDR ETF",
+					"index": "S&P500 Comm Svcs",
+					"weight": 20.01,
+					"currency": "USD",
+					"alpha": 5.48,
+					"sharpeRatio": 0.01,
+					"jensenAlpha": 3.33,
+					"informationRatio": 2.26,
+					"trackingError": 3.81
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 15.1,
+					"currency": "USD",
+					"alpha": 4.31,
+					"sharpeRatio": 3.67,
+					"jensenAlpha": 5.4,
+					"informationRatio": 5.78,
+					"trackingError": 5.23
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.13,
+					"sharpeRatio": 5.99,
+					"jensenAlpha": 0.78,
+					"informationRatio": 4.11,
+					"trackingError": 4.01
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 2.14,
+					"currency": "USD",
+					"alpha": 5.52,
+					"sharpeRatio": 5.58,
+					"jensenAlpha": 3.58,
+					"informationRatio": 2.84,
+					"trackingError": 0.59
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR® MSCI World Financials ETF USD Acc",
+					"index": "MSCI World Financials",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.53,
+					"sharpeRatio": 0.02,
+					"jensenAlpha": 4.96,
+					"informationRatio": 0.85,
+					"trackingError": 3.47
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.52,
+					"sharpeRatio": 3.78,
+					"jensenAlpha": 1.87,
+					"informationRatio": 0.81,
+					"trackingError": 0.89
+				}
+			]
+		}
+	],
+	"Core G2": [
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.48,
+					"sharpeRatio": 4.59,
+					"jensenAlpha": 3.18,
+					"informationRatio": 2.03,
+					"trackingError": 5.44
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.87,
+					"sharpeRatio": 2.73,
+					"jensenAlpha": 1.9,
+					"informationRatio": 5.54,
+					"trackingError": 1.96
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.85,
+					"currency": "USD",
+					"alpha": 4.25,
+					"sharpeRatio": 4.52,
+					"jensenAlpha": 0.98,
+					"informationRatio": 1.17,
+					"trackingError": 3.31
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.1,
+					"sharpeRatio": 3.04,
+					"jensenAlpha": 4.49,
+					"informationRatio": 0.09,
+					"trackingError": 5.65
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Government Bonds",
+			"groupName": "Developed Markets Government Bonds",
+			"color": "#9B6C64",
+			"data": [
+				{
+					"category": "Developed Markets Government Bonds",
+					"name": "BGF Global Inflation Linked Bd A2 USD",
+					"index": "BB Dev Mkts Inflation Bonds",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.62,
+					"sharpeRatio": 0.92,
+					"jensenAlpha": 5.21,
+					"informationRatio": 1.55,
+					"trackingError": 2.3
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.9,
+					"sharpeRatio": 0.83,
+					"jensenAlpha": 2.34,
+					"informationRatio": 5.54,
+					"trackingError": 3.23
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.26,
+					"currency": "USD",
+					"alpha": 2.23,
+					"sharpeRatio": 1.42,
+					"jensenAlpha": 1.14,
+					"informationRatio": 1.98,
+					"trackingError": 0.88
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.53,
+					"sharpeRatio": 1.3,
+					"jensenAlpha": 3.09,
+					"informationRatio": 5.54,
+					"trackingError": 3.65
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Growth ETF",
+					"index": "S&P500 Growth TR",
+					"weight": 32.65,
+					"currency": "USD",
+					"alpha": 5,
+					"sharpeRatio": 1.31,
+					"jensenAlpha": 3.29,
+					"informationRatio": 4.51,
+					"trackingError": 1.34
+				},
+				{
+					"category": "US Equities",
+					"name": "Materials Select Sector SPDR ETF",
+					"index": "S&P500 Materials",
+					"weight": 1.08,
+					"currency": "USD",
+					"alpha": 2.77,
+					"sharpeRatio": 1.83,
+					"jensenAlpha": 3.57,
+					"informationRatio": 2.43,
+					"trackingError": 1.34
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Value ETF",
+					"index": "US Large Cap Value",
+					"weight": 21.67,
+					"currency": "USD",
+					"alpha": 1.83,
+					"sharpeRatio": 2.72,
+					"jensenAlpha": 5.8,
+					"informationRatio": 0.03,
+					"trackingError": 2.15
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 6.15,
+					"currency": "USD",
+					"alpha": 2.95,
+					"sharpeRatio": 4.79,
+					"jensenAlpha": 0.16,
+					"informationRatio": 2.41,
+					"trackingError": 5.96
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.41,
+					"sharpeRatio": 0.53,
+					"jensenAlpha": 4.56,
+					"informationRatio": 1.96,
+					"trackingError": 4.88
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 1.42,
+					"currency": "USD",
+					"alpha": 5.36,
+					"sharpeRatio": 2.58,
+					"jensenAlpha": 2.72,
+					"informationRatio": 4.91,
+					"trackingError": 0.4
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI Wld Cnsmr Discret ETF USD",
+					"index": "MSCI World Consumer Discretionary",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.11,
+					"sharpeRatio": 5.36,
+					"jensenAlpha": 0.63,
+					"informationRatio": 4.62,
+					"trackingError": 1.93
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 24.92,
+					"currency": "USD",
+					"alpha": 4.39,
+					"sharpeRatio": 4.51,
+					"jensenAlpha": 2.23,
+					"informationRatio": 1.29,
+					"trackingError": 0.98
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Equities",
+			"groupName": "Developed Markets Equities",
+			"color": "#f6c022",
+			"data": [
+				{
+					"category": "Developed Markets Equities",
+					"name": "iShares MSCI Intl Momentum Factor ETF",
+					"index": "MSCI World ex-US Momentum",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.19,
+					"sharpeRatio": 4.8,
+					"jensenAlpha": 0.1,
+					"informationRatio": 2.21,
+					"trackingError": 3.35
+				}
+			]
+		}
+	],
+	"Core G1": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1.12,
+					"currency": "USD",
+					"alpha": 1.04,
+					"sharpeRatio": 1.6,
+					"jensenAlpha": 2.32,
+					"informationRatio": 2.09,
+					"trackingError": 2.51
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 13.83,
+					"currency": "USD",
+					"alpha": 3.3,
+					"sharpeRatio": 3.99,
+					"jensenAlpha": 4.28,
+					"informationRatio": 3.05,
+					"trackingError": 3.09
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 4.66,
+					"sharpeRatio": 3.5,
+					"jensenAlpha": 0.7,
+					"informationRatio": 4.4,
+					"trackingError": 1.23
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.48,
+					"sharpeRatio": 4.45,
+					"jensenAlpha": 5.55,
+					"informationRatio": 2.17,
+					"trackingError": 3.27
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.65,
+					"currency": "USD",
+					"alpha": 1.53,
+					"sharpeRatio": 5.48,
+					"jensenAlpha": 4.87,
+					"informationRatio": 0.5,
+					"trackingError": 5.99
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.88,
+					"sharpeRatio": 3.95,
+					"jensenAlpha": 1.06,
+					"informationRatio": 1.5,
+					"trackingError": 0.38
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.61,
+					"sharpeRatio": 4.41,
+					"jensenAlpha": 0.62,
+					"informationRatio": 5.35,
+					"trackingError": 1.39
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Value ETF",
+					"index": "S&P500 Value TR",
+					"weight": 4.75,
+					"currency": "USD",
+					"alpha": 1.81,
+					"sharpeRatio": 0.79,
+					"jensenAlpha": 3.58,
+					"informationRatio": 4.74,
+					"trackingError": 0.35
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Consumer Staples ETF",
+					"index": "S&P500 Consumer Staples",
+					"weight": 16.51,
+					"currency": "USD",
+					"alpha": 0.96,
+					"sharpeRatio": 4.23,
+					"jensenAlpha": 2.98,
+					"informationRatio": 1.04,
+					"trackingError": 4.8
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 2.06,
+					"currency": "USD",
+					"alpha": 5.75,
+					"sharpeRatio": 1.92,
+					"jensenAlpha": 4.01,
+					"informationRatio": 5.27,
+					"trackingError": 5.07
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "AIA International Health Care Fund",
+					"index": "MSCI World Healthcare NR",
+					"weight": 18.14,
+					"currency": "USD",
+					"alpha": 5.01,
+					"sharpeRatio": 3.06,
+					"jensenAlpha": 2.28,
+					"informationRatio": 4.57,
+					"trackingError": 0.95
+				},
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Utilities ETF USD Acc",
+					"index": "MSCI World Utilities",
+					"weight": 1.64,
+					"currency": "USD",
+					"alpha": 4.87,
+					"sharpeRatio": 5.56,
+					"jensenAlpha": 5.15,
+					"informationRatio": 3.49,
+					"trackingError": 3.44
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 36.29,
+					"currency": "USD",
+					"alpha": 4.88,
+					"sharpeRatio": 5.83,
+					"jensenAlpha": 4.48,
+					"informationRatio": 5.21,
+					"trackingError": 1.76
+				}
+			]
+		}
+	],
+	"Core M3": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.35,
+					"sharpeRatio": 1.58,
+					"jensenAlpha": 2.81,
+					"informationRatio": 2.04,
+					"trackingError": 5.23
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 8.7,
+					"currency": "USD",
+					"alpha": 2.72,
+					"sharpeRatio": 1.91,
+					"jensenAlpha": 4.97,
+					"informationRatio": 0.21,
+					"trackingError": 5.81
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.54,
+					"sharpeRatio": 4.49,
+					"jensenAlpha": 3.15,
+					"informationRatio": 0.34,
+					"trackingError": 0.64
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.37,
+					"sharpeRatio": 0.13,
+					"jensenAlpha": 1.9,
+					"informationRatio": 1.59,
+					"trackingError": 2.55
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.52,
+					"currency": "USD",
+					"alpha": 1.52,
+					"sharpeRatio": 4.14,
+					"jensenAlpha": 2.14,
+					"informationRatio": 4.3,
+					"trackingError": 0.09
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.85,
+					"sharpeRatio": 4.87,
+					"jensenAlpha": 4.29,
+					"informationRatio": 2.09,
+					"trackingError": 5.51
+				}
+			]
+		},
+		{
+			"groupId": "Global Corporate Bonds",
+			"groupName": "Global Corporate Bonds",
+			"color": "#6832CD",
+			"data": [
+				{
+					"category": "Global Corporate Bonds",
+					"name": "iShares iBoxx $ High Yield Corp Bd ETF",
+					"index": "BB Global HY",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.15,
+					"sharpeRatio": 5.23,
+					"jensenAlpha": 2.89,
+					"informationRatio": 4.29,
+					"trackingError": 0.52
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Government Bonds",
+			"groupName": "Developed Markets Government Bonds",
+			"color": "#9B6C64",
+			"data": [
+				{
+					"category": "Developed Markets Government Bonds",
+					"name": "BGF Global Inflation Linked Bd A2 USD",
+					"index": "BB Dev Mkts Inflation Bonds",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.23,
+					"sharpeRatio": 0.31,
+					"jensenAlpha": 3.79,
+					"informationRatio": 1.51,
+					"trackingError": 1.79
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.19,
+					"sharpeRatio": 4.26,
+					"jensenAlpha": 3.33,
+					"informationRatio": 4.09,
+					"trackingError": 2.36
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.16,
+					"currency": "USD",
+					"alpha": 2.71,
+					"sharpeRatio": 4.54,
+					"jensenAlpha": 3.53,
+					"informationRatio": 3.74,
+					"trackingError": 2.38
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.87,
+					"sharpeRatio": 0.34,
+					"jensenAlpha": 3.71,
+					"informationRatio": 5.71,
+					"trackingError": 1.15
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Growth ETF",
+					"index": "S&P500 Growth TR",
+					"weight": 44.93,
+					"currency": "USD",
+					"alpha": 3.5,
+					"sharpeRatio": 1.13,
+					"jensenAlpha": 5.66,
+					"informationRatio": 3.3,
+					"trackingError": 4.08
+				},
+				{
+					"category": "US Equities",
+					"name": "Communication Services Sel Sect SPDR ETF",
+					"index": "S&P500 Comm Svcs",
+					"weight": 2.95,
+					"currency": "USD",
+					"alpha": 1.31,
+					"sharpeRatio": 3.79,
+					"jensenAlpha": 4.31,
+					"informationRatio": 2.54,
+					"trackingError": 0.85
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 4.66,
+					"currency": "USD",
+					"alpha": 1.66,
+					"sharpeRatio": 4.89,
+					"jensenAlpha": 2.58,
+					"informationRatio": 6,
+					"trackingError": 4.12
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.78,
+					"sharpeRatio": 2.45,
+					"jensenAlpha": 4.31,
+					"informationRatio": 4.08,
+					"trackingError": 4.96
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 1.16,
+					"currency": "USD",
+					"alpha": 2.29,
+					"sharpeRatio": 1.51,
+					"jensenAlpha": 0.41,
+					"informationRatio": 4.16,
+					"trackingError": 2.74
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Utilities ETF USD Acc",
+					"index": "MSCI World Utilities",
+					"weight": 5.57,
+					"currency": "USD",
+					"alpha": 1.08,
+					"sharpeRatio": 1.36,
+					"jensenAlpha": 0.45,
+					"informationRatio": 0.03,
+					"trackingError": 3.83
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 20.34,
+					"currency": "USD",
+					"alpha": 5.26,
+					"sharpeRatio": 0.59,
+					"jensenAlpha": 0.63,
+					"informationRatio": 1.66,
+					"trackingError": 4.67
+				}
+			]
+		}
+	],
+	"Core M2": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1.28,
+					"currency": "USD",
+					"alpha": 4.04,
+					"sharpeRatio": 4.07,
+					"jensenAlpha": 3.58,
+					"informationRatio": 0.75,
+					"trackingError": 1.07
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 13.73,
+					"currency": "USD",
+					"alpha": 5.26,
+					"sharpeRatio": 2.8,
+					"jensenAlpha": 5.76,
+					"informationRatio": 1.58,
+					"trackingError": 4.02
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.64,
+					"sharpeRatio": 3.05,
+					"jensenAlpha": 3.43,
+					"informationRatio": 2.72,
+					"trackingError": 5.33
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.81,
+					"sharpeRatio": 0.61,
+					"jensenAlpha": 2.68,
+					"informationRatio": 0.35,
+					"trackingError": 2.75
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.72,
+					"sharpeRatio": 0.54,
+					"jensenAlpha": 2.66,
+					"informationRatio": 0.99,
+					"trackingError": 2.17
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Government Bonds",
+			"groupName": "Developed Markets Government Bonds",
+			"color": "#9B6C64",
+			"data": [
+				{
+					"category": "Developed Markets Government Bonds",
+					"name": "BGF Global Inflation Linked Bd A2 USD",
+					"index": "BB Dev Mkts Inflation Bonds",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.02,
+					"sharpeRatio": 0.83,
+					"jensenAlpha": 4.96,
+					"informationRatio": 3.53,
+					"trackingError": 5.77
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 2.02,
+					"sharpeRatio": 2.68,
+					"jensenAlpha": 3.22,
+					"informationRatio": 3.25,
+					"trackingError": 5.78
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.17,
+					"sharpeRatio": 1.02,
+					"jensenAlpha": 4.58,
+					"informationRatio": 3.93,
+					"trackingError": 4.82
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 3.13,
+					"currency": "USD",
+					"alpha": 5.91,
+					"sharpeRatio": 3.45,
+					"jensenAlpha": 3.35,
+					"informationRatio": 3.39,
+					"trackingError": 3.98
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.09,
+					"sharpeRatio": 0.91,
+					"jensenAlpha": 5.89,
+					"informationRatio": 5,
+					"trackingError": 4.4
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 5.17,
+					"sharpeRatio": 2.57,
+					"jensenAlpha": 5.74,
+					"informationRatio": 4.21,
+					"trackingError": 5.62
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Utilities ETF USD Acc",
+					"index": "MSCI World Utilities",
+					"weight": 3.09,
+					"currency": "USD",
+					"alpha": 0.1,
+					"sharpeRatio": 1.48,
+					"jensenAlpha": 5.81,
+					"informationRatio": 5.01,
+					"trackingError": 4.98
+				},
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Comm Svcs ETF USD Acc",
+					"index": "MSCI World Comm Svcs",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.33,
+					"sharpeRatio": 0.93,
+					"jensenAlpha": 3.49,
+					"informationRatio": 1.87,
+					"trackingError": 4.46
+				},
+				{
+					"category": "Global Equities",
+					"name": "Wellington Global HlthC Eq G USD Acc Unh",
+					"index": "S&P500 Healthcare",
+					"weight": 38.42,
+					"currency": "USD",
+					"alpha": 5.82,
+					"sharpeRatio": 5.66,
+					"jensenAlpha": 2.84,
+					"informationRatio": 1.45,
+					"trackingError": 5.78
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "Communication Services Sel Sect SPDR ETF",
+					"index": "S&P500 Comm Svcs",
+					"weight": 3.28,
+					"currency": "USD",
+					"alpha": 3.03,
+					"sharpeRatio": 3.31,
+					"jensenAlpha": 1.35,
+					"informationRatio": 2.56,
+					"trackingError": 5.73
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 28.03,
+					"currency": "USD",
+					"alpha": 1.11,
+					"sharpeRatio": 4.76,
+					"jensenAlpha": 2.49,
+					"informationRatio": 0.16,
+					"trackingError": 5.23
+				}
+			]
+		}
+	],
+	"Core M1": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1.56,
+					"currency": "USD",
+					"alpha": 3.52,
+					"sharpeRatio": 3.77,
+					"jensenAlpha": 1.75,
+					"informationRatio": 5.09,
+					"trackingError": 3.24
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 17.67,
+					"currency": "USD",
+					"alpha": 4.68,
+					"sharpeRatio": 3.13,
+					"jensenAlpha": 3.94,
+					"informationRatio": 4.26,
+					"trackingError": 0.03
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.36,
+					"sharpeRatio": 5.23,
+					"jensenAlpha": 0.73,
+					"informationRatio": 2.83,
+					"trackingError": 5.01
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.9,
+					"sharpeRatio": 5.47,
+					"jensenAlpha": 2.46,
+					"informationRatio": 5.65,
+					"trackingError": 5.33
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.64,
+					"sharpeRatio": 5.17,
+					"jensenAlpha": 3.95,
+					"informationRatio": 3.55,
+					"trackingError": 3.09
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 2.42,
+					"sharpeRatio": 2.46,
+					"jensenAlpha": 4.7,
+					"informationRatio": 5.83,
+					"trackingError": 0.37
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Value ETF",
+					"index": "S&P500 Value TR",
+					"weight": 4.55,
+					"currency": "USD",
+					"alpha": 5.3,
+					"sharpeRatio": 4.44,
+					"jensenAlpha": 2.1,
+					"informationRatio": 3.88,
+					"trackingError": 3.56
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Consumer Staples ETF",
+					"index": "S&P500 Consumer Staples",
+					"weight": 19.17,
+					"currency": "USD",
+					"alpha": 4.67,
+					"sharpeRatio": 5.02,
+					"jensenAlpha": 5.32,
+					"informationRatio": 3.5,
+					"trackingError": 1.26
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 2.85,
+					"currency": "USD",
+					"alpha": 5.81,
+					"sharpeRatio": 4.43,
+					"jensenAlpha": 2.62,
+					"informationRatio": 1.25,
+					"trackingError": 4.56
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "AIA International Health Care Fund",
+					"index": "MSCI World Healthcare NR",
+					"weight": 22.14,
+					"currency": "USD",
+					"alpha": 2.92,
+					"sharpeRatio": 4.51,
+					"jensenAlpha": 4.56,
+					"informationRatio": 3.36,
+					"trackingError": 0.96
+				},
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Comm Svcs ETF USD Acc",
+					"index": "MSCI World Comm Svcs",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.95,
+					"sharpeRatio": 4.74,
+					"jensenAlpha": 1.99,
+					"informationRatio": 1.25,
+					"trackingError": 1.37
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 27.06,
+					"currency": "USD",
+					"alpha": 2.22,
+					"sharpeRatio": 2.11,
+					"jensenAlpha": 2.68,
+					"informationRatio": 1.15,
+					"trackingError": 1.84
+				}
+			]
+		}
+	],
+	"Core C3": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1.01,
+					"currency": "USD",
+					"alpha": 4.97,
+					"sharpeRatio": 4.98,
+					"jensenAlpha": 2.48,
+					"informationRatio": 2.49,
+					"trackingError": 2.26
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 15.16,
+					"currency": "USD",
+					"alpha": 4.95,
+					"sharpeRatio": 2.26,
+					"jensenAlpha": 5.3,
+					"informationRatio": 5.23,
+					"trackingError": 4.92
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.86,
+					"sharpeRatio": 4,
+					"jensenAlpha": 3.65,
+					"informationRatio": 2.72,
+					"trackingError": 4.13
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 4.48,
+					"sharpeRatio": 0.76,
+					"jensenAlpha": 3.07,
+					"informationRatio": 5.54,
+					"trackingError": 5.2
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.31,
+					"currency": "USD",
+					"alpha": 5.91,
+					"sharpeRatio": 4.64,
+					"jensenAlpha": 4.91,
+					"informationRatio": 0.78,
+					"trackingError": 1.58
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.22,
+					"sharpeRatio": 3.49,
+					"jensenAlpha": 1,
+					"informationRatio": 3.71,
+					"trackingError": 4.92
+				}
+			]
+		},
+		{
+			"groupId": "Global Corporate Bonds",
+			"groupName": "Global Corporate Bonds",
+			"color": "#6832CD",
+			"data": [
+				{
+					"category": "Global Corporate Bonds",
+					"name": "iShares iBoxx $ High Yield Corp Bd ETF",
+					"index": "BB Global HY",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.58,
+					"sharpeRatio": 5.41,
+					"jensenAlpha": 3.08,
+					"informationRatio": 1.84,
+					"trackingError": 4.7
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Government Bonds",
+			"groupName": "Developed Markets Government Bonds",
+			"color": "#9B6C64",
+			"data": [
+				{
+					"category": "Developed Markets Government Bonds",
+					"name": "BGF Global Inflation Linked Bd A2 USD",
+					"index": "BB Dev Mkts Inflation Bonds",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.76,
+					"sharpeRatio": 0.44,
+					"jensenAlpha": 4.58,
+					"informationRatio": 5.93,
+					"trackingError": 2.52
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1.02,
+					"currency": "USD",
+					"alpha": 4.61,
+					"sharpeRatio": 2.66,
+					"jensenAlpha": 2.92,
+					"informationRatio": 0.61,
+					"trackingError": 3.59
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.15,
+					"currency": "USD",
+					"alpha": 4.88,
+					"sharpeRatio": 1.97,
+					"jensenAlpha": 5.58,
+					"informationRatio": 2.04,
+					"trackingError": 4.56
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 0.99,
+					"sharpeRatio": 5,
+					"jensenAlpha": 5.87,
+					"informationRatio": 3.85,
+					"trackingError": 2.92
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Growth ETF",
+					"index": "S&P500 Growth TR",
+					"weight": 28.77,
+					"currency": "USD",
+					"alpha": 0.4,
+					"sharpeRatio": 3.39,
+					"jensenAlpha": 3.51,
+					"informationRatio": 1.19,
+					"trackingError": 1.64
+				},
+				{
+					"category": "US Equities",
+					"name": "Communication Services Sel Sect SPDR ETF",
+					"index": "S&P500 Comm Svcs",
+					"weight": 2.32,
+					"currency": "USD",
+					"alpha": 1.24,
+					"sharpeRatio": 5.27,
+					"jensenAlpha": 3.38,
+					"informationRatio": 2.29,
+					"trackingError": 5.7
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 3.73,
+					"currency": "USD",
+					"alpha": 5.11,
+					"sharpeRatio": 0.94,
+					"jensenAlpha": 5.36,
+					"informationRatio": 0.91,
+					"trackingError": 5.37
+				}
+			]
+		},
+		{
+			"groupId": "Real Estate",
+			"groupName": "Real Estate",
+			"color": "#31C4CE",
+			"data": [
+				{
+					"category": "Real Estate",
+					"name": "iShares International Dev Real Est ETF",
+					"index": "FTSE EPRA NAREIT Developed Ex US NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.47,
+					"sharpeRatio": 3.84,
+					"jensenAlpha": 5.03,
+					"informationRatio": 5.69,
+					"trackingError": 5.49
+				},
+				{
+					"category": "Real Estate",
+					"name": "iShares US Real Estate ETF",
+					"index": "DJ US Real Estate TR",
+					"weight": 1.03,
+					"currency": "USD",
+					"alpha": 0.58,
+					"sharpeRatio": 5.1,
+					"jensenAlpha": 2.96,
+					"informationRatio": 3.57,
+					"trackingError": 4.66
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Utilities ETF USD Acc",
+					"index": "MSCI World Utilities",
+					"weight": 3.77,
+					"currency": "USD",
+					"alpha": 0.03,
+					"sharpeRatio": 4.79,
+					"jensenAlpha": 0.23,
+					"informationRatio": 0.17,
+					"trackingError": 3.84
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 33.73,
+					"currency": "USD",
+					"alpha": 1.48,
+					"sharpeRatio": 3.24,
+					"jensenAlpha": 5.93,
+					"informationRatio": 4.84,
+					"trackingError": 5.19
+				}
+			]
+		}
+	],
+	"Core C2": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 1.29,
+					"currency": "USD",
+					"alpha": 5.7,
+					"sharpeRatio": 0.7,
+					"jensenAlpha": 2.68,
+					"informationRatio": 2.47,
+					"trackingError": 1.96
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 20.22,
+					"currency": "USD",
+					"alpha": 2.25,
+					"sharpeRatio": 1.92,
+					"jensenAlpha": 2.15,
+					"informationRatio": 1.11,
+					"trackingError": 5.8
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.28,
+					"sharpeRatio": 5.23,
+					"jensenAlpha": 0.72,
+					"informationRatio": 3.96,
+					"trackingError": 5.96
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.17,
+					"sharpeRatio": 5.92,
+					"jensenAlpha": 0.02,
+					"informationRatio": 1.48,
+					"trackingError": 2.32
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "PIMCO GIS GllnGd Crdt E USD Inc",
+					"index": "BB Global Investment Grade",
+					"weight": 1.83,
+					"currency": "USD",
+					"alpha": 4.43,
+					"sharpeRatio": 4.2,
+					"jensenAlpha": 0.01,
+					"informationRatio": 4.36,
+					"trackingError": 4.38
+				},
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.32,
+					"sharpeRatio": 1.02,
+					"jensenAlpha": 1.22,
+					"informationRatio": 5.79,
+					"trackingError": 0.58
+				}
+			]
+		},
+		{
+			"groupId": "Japan Equities",
+			"groupName": "Japan Equities",
+			"color": "#C5603A",
+			"data": [
+				{
+					"category": "Japan Equities",
+					"name": "iShares JPX-Nikei 400 ETF",
+					"index": "Japan (Topix)",
+					"weight": 1.06,
+					"currency": "USD",
+					"alpha": 2.27,
+					"sharpeRatio": 4.94,
+					"jensenAlpha": 0.14,
+					"informationRatio": 0.23,
+					"trackingError": 5.15
+				}
+			]
+		},
+		{
+			"groupId": "Europe Equities",
+			"groupName": "Europe Equities",
+			"color": "#6857A8",
+			"data": [
+				{
+					"category": "Europe Equities",
+					"name": "Fidelity European Dynamic Gr-A-Acc-EUR",
+					"index": "Europe 600",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.27,
+					"sharpeRatio": 1.49,
+					"jensenAlpha": 3.98,
+					"informationRatio": 4.99,
+					"trackingError": 2.51
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Value ETF",
+					"index": "S&P500 Value TR",
+					"weight": 2.09,
+					"currency": "USD",
+					"alpha": 1.88,
+					"sharpeRatio": 4.98,
+					"jensenAlpha": 2.33,
+					"informationRatio": 5.22,
+					"trackingError": 0.5
+				},
+				{
+					"category": "US Equities",
+					"name": "Communication Services Sel Sect SPDR ETF",
+					"index": "S&P500 Comm Svcs",
+					"weight": 2.7,
+					"currency": "USD",
+					"alpha": 4.06,
+					"sharpeRatio": 4.32,
+					"jensenAlpha": 5.46,
+					"informationRatio": 4.49,
+					"trackingError": 2.08
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 2.5,
+					"currency": "USD",
+					"alpha": 1.9,
+					"sharpeRatio": 3.36,
+					"jensenAlpha": 5.84,
+					"informationRatio": 4.6,
+					"trackingError": 1.74
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Comm Svcs ETF USD Acc",
+					"index": "MSCI World Comm Svcs",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 5.86,
+					"sharpeRatio": 0.54,
+					"jensenAlpha": 1.85,
+					"informationRatio": 1.85,
+					"trackingError": 1.32
+				},
+				{
+					"category": "Global Equities",
+					"name": "Wellington Global HlthC Eq G USD Acc Unh",
+					"index": "S&P500 Healthcare",
+					"weight": 29.04,
+					"currency": "USD",
+					"alpha": 3.79,
+					"sharpeRatio": 5.91,
+					"jensenAlpha": 0.85,
+					"informationRatio": 1.52,
+					"trackingError": 3.23
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 34.27,
+					"currency": "USD",
+					"alpha": 2.2,
+					"sharpeRatio": 4.64,
+					"jensenAlpha": 1.62,
+					"informationRatio": 5.64,
+					"trackingError": 3.28
+				}
+			]
+		}
+	],
+	"Core C1": [
+		{
+			"groupId": "US Government Bonds",
+			"groupName": "US Government Bonds",
+			"color": "#BDA142",
+			"data": [
+				{
+					"category": "US Government Bonds",
+					"name": "iShares TIPS Bond ETF",
+					"index": "BB US TIPS",
+					"weight": 3.6,
+					"currency": "USD",
+					"alpha": 0.5,
+					"sharpeRatio": 1.22,
+					"jensenAlpha": 5.8,
+					"informationRatio": 1.32,
+					"trackingError": 3.14
+				}
+			]
+		},
+		{
+			"groupId": "Developed Markets Aggregate Bonds",
+			"groupName": "Developed Markets Aggregate Bonds",
+			"color": "#6395f9",
+			"data": [
+				{
+					"category": "Developed Markets Aggregate Bonds",
+					"name": "DFA Two-Year Global Fixed-Income I",
+					"index": "BB Short Duration",
+					"weight": 38.9,
+					"currency": "USD",
+					"alpha": 3.02,
+					"sharpeRatio": 5.55,
+					"jensenAlpha": 0.66,
+					"informationRatio": 2.79,
+					"trackingError": 0.01
+				}
+			]
+		},
+		{
+			"groupId": "Emerging Markets Government Bonds",
+			"groupName": "Emerging Markets Government Bonds",
+			"color": "#62daab",
+			"data": [
+				{
+					"category": "Emerging Markets Government Bonds",
+					"name": "Invesco Emerging Markets Sov Debt ETF",
+					"index": "BB EM Govt",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 2.87,
+					"sharpeRatio": 0.42,
+					"jensenAlpha": 3.81,
+					"informationRatio": 4.58,
+					"trackingError": 4.34
+				}
+			]
+		},
+		{
+			"groupId": "Asia Aggregate Bonds",
+			"groupName": "Asia Aggregate Bonds",
+			"color": "#567798",
+			"data": [
+				{
+					"category": "Asia Aggregate Bonds",
+					"name": "iShares JP Morgan USD Asia Credit Bd ETF",
+					"index": "BB Asia Credit",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.66,
+					"sharpeRatio": 2.42,
+					"jensenAlpha": 4,
+					"informationRatio": 5.12,
+					"trackingError": 0.03
+				}
+			]
+		},
+		{
+			"groupId": "Global Aggregate Bonds",
+			"groupName": "Global Aggregate Bonds",
+			"color": "#7666f9",
+			"data": [
+				{
+					"category": "Global Aggregate Bonds",
+					"name": "iShares Core Glbl Aggg Bond UCITS ETF",
+					"index": "BB Global Aggregate",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 3.14,
+					"sharpeRatio": 5.85,
+					"jensenAlpha": 5.42,
+					"informationRatio": 4.55,
+					"trackingError": 3.63
+				}
+			]
+		},
+		{
+			"groupId": "Asia Pacific ex-Japan Equities",
+			"groupName": "Asia Pacific ex-Japan Equities",
+			"color": "#3cb57a",
+			"data": [
+				{
+					"category": "Asia Pacific ex-Japan Equities",
+					"name": "Nikko AM Shenton Asia Pacific",
+					"index": "MSCI AC Asia Pac x Jap NR",
+					"weight": 1,
+					"currency": "USD",
+					"alpha": 1.05,
+					"sharpeRatio": 2.87,
+					"jensenAlpha": 1.99,
+					"informationRatio": 5.09,
+					"trackingError": 2.42
+				}
+			]
+		},
+		{
+			"groupId": "US Equities",
+			"groupName": "US Equities",
+			"color": "#CD3248",
+			"data": [
+				{
+					"category": "US Equities",
+					"name": "iShares S&P 500 Value ETF",
+					"index": "S&P500 Value TR",
+					"weight": 5.5,
+					"currency": "USD",
+					"alpha": 3.13,
+					"sharpeRatio": 1.8,
+					"jensenAlpha": 0.49,
+					"informationRatio": 4.37,
+					"trackingError": 3.51
+				},
+				{
+					"category": "US Equities",
+					"name": "Vanguard Consumer Staples ETF",
+					"index": "S&P500 Consumer Staples",
+					"weight": 7,
+					"currency": "USD",
+					"alpha": 0.52,
+					"sharpeRatio": 1.18,
+					"jensenAlpha": 3.97,
+					"informationRatio": 4.12,
+					"trackingError": 2.71
+				}
+			]
+		},
+		{
+			"groupId": "Commodities",
+			"groupName": "Commodities",
+			"color": "#97A857",
+			"data": [
+				{
+					"category": "Commodities",
+					"name": "SPDR Gold Shares ETF",
+					"index": "LBMA Gold Price PM PR",
+					"weight": 3,
+					"currency": "USD",
+					"alpha": 1.51,
+					"sharpeRatio": 1.51,
+					"jensenAlpha": 1.17,
+					"informationRatio": 3.5,
+					"trackingError": 2.85
+				}
+			]
+		},
+		{
+			"groupId": "Global Equities",
+			"groupName": "Global Equities",
+			"color": "#47B86E",
+			"data": [
+				{
+					"category": "Global Equities",
+					"name": "AIA International Health Care Fund",
+					"index": "MSCI World Healthcare NR",
+					"weight": 3,
+					"currency": "USD",
+					"alpha": 3.43,
+					"sharpeRatio": 3.17,
+					"jensenAlpha": 0.72,
+					"informationRatio": 1.61,
+					"trackingError": 4.99
+				},
+				{
+					"category": "Global Equities",
+					"name": "SPDR MSCI World Utilities ETF USD Acc",
+					"index": "MSCI World Utilities",
+					"weight": 2,
+					"currency": "USD",
+					"alpha": 5.76,
+					"sharpeRatio": 5.16,
+					"jensenAlpha": 2.97,
+					"informationRatio": 1.97,
+					"trackingError": 1.64
+				}
+			]
+		},
+		{
+			"groupId": "Cash",
+			"groupName": "Cash",
+			"color": "#97CD32",
+			"data": [
+				{
+					"category": "Cash",
+					"name": "US Cash",
+					"index": "US Cash",
+					"weight": 33,
+					"currency": "USD",
+					"alpha": 3.24,
+					"sharpeRatio": 1.31,
+					"jensenAlpha": 4.16,
+					"informationRatio": 1.62,
+					"trackingError": 2.26
+				}
+			]
+		}
+	]
+}
