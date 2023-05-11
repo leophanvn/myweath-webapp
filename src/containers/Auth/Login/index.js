@@ -47,8 +47,8 @@ const data = [
 		content: 'We adopt AI and quantitative techniques to improve your investment portfolio, and your overall investment experience.',
 	},
 	{
-		title: 'Early Warning Indicators',
-		content: 'We also use AI to detect changes in market and macroeconomic indicators to keep you informed of factors that are affecting your investment.',
+		title: 'myWealth Roadmap',
+		content: 'A comprehensive tool to help you take stock of your financial situation, recommend steps to boost your financial health, and help you to work towards your financial goals.',
 	},
 ];
 
@@ -195,7 +195,7 @@ const Login = (props) => {
 				</div>
 				<div className="py-2">
 					<strong className="text-primary">myWealth.ai</strong>
-					<span> 2022 © All Rights Reserved.</span>
+					<span> 2023 © All Rights Reserved.</span>
 				</div>
 			</div>
 		</div>
